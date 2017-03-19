@@ -41,7 +41,7 @@ done
 
 RAILS_CONTAINER=$(docker ps -a | grep -i 3000 | awk '{print $NF}')
 
-docker exec -it $RAILS_CONTAINER rspec
+docker exec -i $RAILS_CONTAINER rspec
 RSPEC_RESULT=$?
 
 docker stop $(docker ps -a -q)
