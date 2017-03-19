@@ -39,7 +39,7 @@ do
   sleep 1
 done
 
-RAILS_CONTAINER=$(docker ps -a | grep -i rails | awk '{print $NF}')
+RAILS_CONTAINER=$(docker ps -a | grep -i 3000 | awk '{print $NF}')
 
 docker exec -it $RAILS_CONTAINER rspec
 RSPEC_RESULT=$?
