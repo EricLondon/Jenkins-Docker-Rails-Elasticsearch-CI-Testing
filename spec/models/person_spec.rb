@@ -6,6 +6,10 @@ RSpec.describe Person, type: :model do
       Person.destroy_all
     end
 
+    after do
+      person.destroy
+    end
+
     let(:first_name) { "first #{DateTime.now.to_i}" }
     let(:last_name) { "last #{DateTime.now.to_i}" }
     let!(:person) { Person.create!(first_name: first_name, last_name: last_name) }
