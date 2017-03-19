@@ -1,1 +1,1 @@
-# Jenkins Docker Rails Elasticsearch CI Testing Edit
+# Jenkins Docker Rails Elasticsearch CI Testing
