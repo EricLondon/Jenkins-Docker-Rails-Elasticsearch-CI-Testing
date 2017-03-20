@@ -1,3 +1,3 @@
 # Jenkins Docker Rails Elasticsearch CI Testing
 
-(test 201703191623)
+Read blog post here: http://ericlondon.com/2017/03/19/using-jenkins-to-build-and-test-docker-compose-cluster-via-rails-elasticsearch-rspec.html
